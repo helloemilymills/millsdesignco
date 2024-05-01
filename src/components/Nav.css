@@ -1,0 +1,26 @@
+#navLogo {
+    max-width: 20vw;
+}
+
+#navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+#navButtonsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.navButton {
+    margin: 0 8px;
+    color: var(--hotAirBalloon);
+}
+
+.navButton:hover {
+    text-decoration: solid underline var(--hotAirBalloon) 4px;
+    text-underline-offset: 4px;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: var(--hotAirBalloon);
+}
+
+#comingSoonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#comingSoonContainer > h1 {
+    margin-bottom: 0;
+}
+
+#comingSoonContainer > h4 {
+    margin-top: 0;
+}
+
+#comingSoonLogo {
+    max-width: 200px;
+}

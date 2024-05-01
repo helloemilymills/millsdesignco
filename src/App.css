@@ -1,0 +1,65 @@
+/* proxima nova extra condensed */
+@import url("https://use.typekit.net/etq6kvb.css");
+/* acumin variable */
+@import url("https://use.typekit.net/etq6kvb.css");
+
+:root {
+    --hotAirBalloon: #2e82b1;
+    --rubberDucky: #f4b826;
+    --strawberryDessert: #f83c4b;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+}
+
+.hotAirBalloon {
+    color: var(--hotAirBalloon);
+}
+
+.rubberDucky {
+    color: var(--rubberDucky);
+}
+
+.strawberryDessert {
+    color: var(--strawberryDessert);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "proxima-nova-extra-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 8px;
+}
+
+body {
+    font-family: "acumin-variable", sans-serif;
+    font-weight: normal;
+    /* font-variation-settings: "slnt" 0, "wdth" 100, "wght" 194.2857; */
+}
