@@ -7,10 +7,8 @@ export default function Nav() {
       <>
         <div id='navContainer'>
           <img id='navLogo' src={logo} alt='Mills Design Co Logo'/>
-          <div id='navButtonsContainer'>
-            <h5 className='navButton'>About</h5>
-            <h5 className='navButton'>Contact</h5>
-          </div>
+          <p className='headerFooterCompanyName white'>Mills Design Co</p>
+          <div id='burgerMenu'></div>
         </div>
       </>
     );

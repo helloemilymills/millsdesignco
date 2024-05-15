@@ -1,5 +1,5 @@
 #navLogo {
-    max-width: 20vw;
+    width: 50px;
 }
 
 #navContainer {
@@ -7,20 +7,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 4px 16px;
+    background-color: var(--rubberDucky);
 }
 
-#navButtonsContainer {
-    display: flex;
-    flex-direction: row;
+#burgerMenu {
+    width: 50px;
 }
 
-.navButton {
-    margin: 0 8px;
-    color: var(--hotAirBalloon);
-}
-
-.navButton:hover {
-    text-decoration: solid underline var(--hotAirBalloon) 4px;
-    text-underline-offset: 4px;
+.headerFooterCompanyName {
+    size: 16px;
+    font-weight: bold;
 }
