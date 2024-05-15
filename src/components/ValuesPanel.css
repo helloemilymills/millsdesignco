@@ -1,0 +1,27 @@
+#valuesPanelContainer {
+    margin-top: 24px;
+}
+
+.valuesBoxes {
+    color: var(--white);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.yellowValuesBox {
+    background-color: var(--rubberDucky);
+}
+
+.redValuesBox {
+    background-color: var(--strawberryDessert);
+}
+
+.blueValuesBox {
+    background-color: var(--hotAirBalloon);
+}
+
+#valuesBoxesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

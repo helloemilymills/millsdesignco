@@ -16,6 +16,12 @@ body {
     color: var(--hotAirBalloon);
 }
 
+body {
+    font-family: "acumin-variable", sans-serif;
+    font-weight: normal;
+    /* font-variation-settings: "slnt" 0, "wdth" 100, "wght" 194.2857; */
+}
+
 .hotAirBalloon {
     color: var(--hotAirBalloon);
 }
@@ -52,28 +58,25 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "proxima-nova-extra-condensed", sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
+    line-height: 1.2;
+    margin-bottom: 16px;
 }
 
 h1 {
     font-size: 48px;
-    font-weight: bold;
-    line-height: 1.2;
-    margin-bottom: 16px;
     margin-top: 24px;
 }
 
 h2 {
     font-size: 40px;
-    font-weight: bold;
-    line-height: 1.2;
-    margin-bottom: 16px;
     margin-top: 0px;
 }
 
 h3 {
     font-size: 32px;
+    margin-top: 0px;
 }
 
 h4 {
@@ -90,10 +93,5 @@ h6 {
 
 p {
     line-height: 1.5;
-}
-
-body {
-    font-family: "acumin-variable", sans-serif;
-    font-weight: normal;
-    /* font-variation-settings: "slnt" 0, "wdth" 100, "wght" 194.2857; */
+    margin-bottom: 0;
 }
