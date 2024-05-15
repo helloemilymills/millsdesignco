@@ -1,0 +1,17 @@
+#profileImage {
+    width: 100%;
+}
+
+#brandStoryBlueContainer {
+    background-color: var(--hotAirBalloon);
+    margin-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0 0 8px 8px;
+}
+
+#brandStoryWhiteContainer {
+    background-color: var(--white);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
