@@ -5,8 +5,7 @@ import BrandStoryPanel from './components/BrandStoryPanel.js';
 import ValuesPanel from './components/ValuesPanel.js';
 import CreatorRecsPanel from './components/CreatorRecsPanel.js';
 import SocialsPanel from './components/SocialsPanel.1.js';
-// import Footer from './components/Footer.js';
-
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -17,9 +16,8 @@ function App() {
       <ValuesPanel />
       <CreatorRecsPanel />
       <SocialsPanel />
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
-
 export default App;
