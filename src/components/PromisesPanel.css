@@ -26,3 +26,16 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media (min-width: 800px) {
+
+    #promisesPanelContainer {
+        margin: 2.5vw 5vw; 
+    }
+
+    #promisesBoxesContainer {
+        flex-direction: row;
+        gap: 2.5vw;
+    }
+
+}
