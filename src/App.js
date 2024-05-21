@@ -4,7 +4,7 @@ import HeroPanel from './components/HeroPanel.js';
 import BrandStoryPanel from './components/BrandStoryPanel.js';
 import PromisesPanel from './components/PromisesPanel.js';
 import CreatorRecsPanel from './components/CreatorRecsPanel.js';
-import SocialsPanel from './components/SocialsPanel.1.js';
+import SocialsPanel from './components/SocialsPanel.js';
 import Footer from './components/Footer.js';
 
 function App() {

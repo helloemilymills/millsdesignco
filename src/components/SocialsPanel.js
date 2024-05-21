@@ -8,7 +8,7 @@ export default function SocialsPanel() {
           <h2>Say Hello</h2>
           <div className='blueBar'></div>
           <p>I’d love to connect! You can find me on these platforms.</p>
-          {/* <div id='socialIcons'>
+          <div id='socialIcons'>
             <a href='https://www.tiktok.com/@millsdesign.co' target='_blank' rel='noopener noreferrer'>
               <svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M52.5 20.5703V40.5703C52.5 47.4738 46.9035 53.0703 40 53.0703H20C13.0964 53.0703 7.5 47.4738 7.5 40.5703V20.5703C7.5 13.6668 13.0964 8.07031 20 8.07031H40C46.9035 8.07031 52.5 13.6668 52.5 20.5703Z" stroke="#F83C4B" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
@@ -30,7 +30,7 @@ export default function SocialsPanel() {
                 <path d="M17.5 18.0961L17.5254 18.0679" stroke="#2E82B1" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </a>
-            <a href='https://www.behance.net/helloemilymills' target='_blank' rel='noopener noreferrer'>
+            {/* <a href='https://www.behance.net/helloemilymills' target='_blank' rel='noopener noreferrer'>
               <svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M52.5 20.5703V40.5703C52.5 47.4738 46.9035 53.0703 40 53.0703H20C13.0964 53.0703 7.5 47.4738 7.5 40.5703V20.5703C7.5 13.6668 13.0964 8.07031 20 8.07031H40C46.9035 8.07031 52.5 13.6668 52.5 20.5703Z" stroke="#F83C4B" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M22.7465 30.1356C29.0845 30.1356 29.0845 40.5703 22.7465 40.5703C19.1712 40.5703 15 40.5703 15 40.5703V30.1356M22.7465 30.1356C19.1712 30.1356 15 30.1356 15 30.1356M22.7465 30.1356C29.0845 30.1356 29.0845 20.5703 22.7465 20.5703C19.9296 20.5703 15 20.5703 15 20.5703V30.1356" stroke="#F83C4B" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
@@ -38,8 +38,8 @@ export default function SocialsPanel() {
                 <path d="M32.5 34.3203C32.5 37.7721 35.2983 40.5703 38.75 40.5703C41.069 40.5703 42.4762 39.7643 43.2815 39.0208" stroke="#F83C4B" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M42.5 21.8203H35" stroke="#F83C4B" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-            </a>
-          </div> */}
+            </a> */}
+          </div>
         </div>
       </>
     );
