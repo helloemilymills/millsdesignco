@@ -1,6 +1,6 @@
-import './VideoPanel.css'
+import './HeroPanel.css'
 
-export default function VideoPanel() {
+export default function HeroPanel() {
 
     return (
       <>

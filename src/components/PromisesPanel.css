@@ -1,27 +1,27 @@
-#valuesPanelContainer {
+#promisesPanelContainer {
     margin-top: 24px;
     margin-bottom: 12px;
 }
 
-.valuesBoxes {
+.promisesBoxes {
     color: var(--white);
     border-radius: 8px;
     padding: 20px;
 }
 
-.yellowValuesBox {
+.yellowPromisesBox {
     background-color: var(--rubberDucky);
 }
 
-.redValuesBox {
+.redPromisesBox {
     background-color: var(--strawberryDessert);
 }
 
-.blueValuesBox {
+.bluePromisesBox {
     background-color: var(--hotAirBalloon);
 }
 
-#valuesBoxesContainer {
+#promisesBoxesContainer {
     display: flex;
     flex-direction: column;
     gap: 20px;
