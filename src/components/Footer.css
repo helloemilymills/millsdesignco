@@ -10,3 +10,11 @@
 #footerLogo {
     width: 25px;
 }
+
+@media (min-width: 800px) {
+
+    #footer {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}

@@ -20,3 +20,11 @@
     font-weight: bold;
     margin: 0;
 }
+
+@media (min-width: 800px) {
+
+    #navContainer {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}

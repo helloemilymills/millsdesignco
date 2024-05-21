@@ -4,8 +4,8 @@ export default function HeroPanel() {
 
     return (
       <>
-      <div id='heroContainer'>
-        <div id='intro' className='consistentPadding'>
+      <div id='heroContainer' className='consistentPadding'>
+        <div id='intro' >
           <h1>Create with Confidence</h1>
           <div className='blueBar'></div>
           <p>

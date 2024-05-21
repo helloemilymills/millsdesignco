@@ -1,5 +1,5 @@
 #promisesPanelContainer {
-    margin-top: 24px;
+    padding-top: 24px;
     margin-bottom: 12px;
 }
 
@@ -30,7 +30,7 @@
 @media (min-width: 800px) {
 
     #promisesPanelContainer {
-        margin: 2.5vw 5vw; 
+        padding: 2.5vw 5vw; 
     }
 
     #promisesBoxesContainer {

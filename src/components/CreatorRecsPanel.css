@@ -30,3 +30,15 @@
     border: 8px solid var(--white);
     
 }
+
+@media (min-width: 800px) {
+
+    #creatorSpotlightContainer {
+        padding: 2.5vw 5vw; 
+    }
+
+    #creatorsContainer {
+        gap: 2.5vw;
+    }
+
+}
