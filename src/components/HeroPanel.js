@@ -4,6 +4,7 @@ export default function HeroPanel() {
 
     return (
       <>
+      <div id='heroContainer'>
         <div id='intro' className='consistentPadding'>
           <h1>Create with Confidence</h1>
           <div className='blueBar'></div>
@@ -18,6 +19,7 @@ export default function HeroPanel() {
             </p>
           </div>
         </div>
+      </div>
       </>
     );
   }
