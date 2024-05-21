@@ -14,3 +14,24 @@
     padding: 20px;
     border-radius: 8px;
 }
+
+@media (min-width: 800px) {
+    #brandStoryBlueContainer {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    #profileImage {
+        max-width: 50%;
+    }
+
+    #brandStoryWhiteContainer {
+        margin: 2.5vw;
+        padding: 2.5vw;;
+    }
+
+   
+
+
+}
