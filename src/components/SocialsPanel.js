@@ -7,7 +7,9 @@ export default function SocialsPanel() {
         <div className='consistentPadding' id='socialsContainer'>
           <h2>Say Hello</h2>
           <div className='blueBar'></div>
-          <p>I’d love to connect! You can find me on these platforms.</p>
+          <p>
+          I’m on a mission to cultivate a community that embraces creative play, shares their knowledge willingly, and supports emerging designers. If that resonates with you, let’s connect!
+          </p>
           <div id='socialIcons'>
             <a href='https://www.tiktok.com/@millsdesign.co' target='_blank' rel='noopener noreferrer'>
               <svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
