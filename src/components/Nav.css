@@ -16,8 +16,9 @@
 }
 
 .headerFooterCompanyName {
-    size: 16px;
+    font-family: "proxima-nova-extra-condensed", sans-serif;
     font-weight: bold;
+    font-style: normal;
     margin: 0;
 }
 
