@@ -23,11 +23,12 @@
     }
 
     #profileImage {
-        max-width: 50%;
+        width: 50%;
+        object-fit: cover;   
     }
 
     #brandStoryWhiteContainer {
-        margin: 2.5vw;
+        margin: 5vw;
         padding: 2.5vw;;
     }
 
