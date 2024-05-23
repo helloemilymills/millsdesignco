@@ -32,13 +32,25 @@
 }
 
 @media (min-width: 800px) {
-
     #creatorSpotlightContainer {
         padding: 2.5vw 5vw; 
     }
 
-    #creatorsContainer {
+    #creatorTextContainer {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #creatorSpotlightContainer {
+        display: flex;
+        justify-content: space-between;
         gap: 2.5vw;
     }
 
+    #creatorsContainer {
+        gap: 2.5vw;
+        flex-wrap: nowrap;
+    }
 }

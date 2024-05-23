@@ -9,10 +9,31 @@
     margin-top: 12px;
 }
 
+
+
 @media (min-width: 800px) {
 
     #socialsContainer {
         padding: 2.5vw 5vw; 
     }
 
+    #socialTextContainer {
+        max-width: 600px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    #socialsContainer {
+        display: flex;
+        justify-content: space-between;
+        gap: 2.5vw;
+    }
+
+    #socialIcons {
+        gap: 2.5vw;
+        align-items: flex-end;
+        
+    }
 }
