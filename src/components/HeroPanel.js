@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './HeroPanel.css'
 import photoshopCropTool from '../images/Cover - Photoshop Crop Tool.png'
 import failingFast from '../images/Cover - Failing Fast.png'
@@ -5,24 +6,47 @@ import figmaPrototypes from '../images/Cover - Figma Prototypes.png'
 
 export default function HeroPanel() {
 
+  const [leftImageSrc, setLeftImageSrc] = useState(figmaPrototypes);
+  const [featureImageSrc, setFeatureImageSrc] = useState(failingFast);
+  const [rightImageSrc, setRightImageSrc] = useState(photoshopCropTool);
 
   function moveCarouselImageLeft() {
-    // let carouselImage = document.getElementsByClassName('carouselImage');
-    // for (let i = 0; i < carouselImage.length; i++) {
-    //   carouselImage[i] !== carouselFeature ? carouselImage[i].style.transform = 'scale(.75)' : carouselImage[i].style.transform = 'scale(1)';
-    // };
+    if (configurationOne) {
+      setLeftImageSrc();
+      setFeatureImageSrc();
+      setRightImageSrc();
+    } else if (configurationTwo) {
+      setLeftImageSrc();
+      setFeatureImageSrc();
+      setRightImageSrc();
+    } else if (configurationThree) {
+      setLeftImageSrc();
+      setFeatureImageSrc();
+      setRightImageSrc();
+    }
   };
 
-    function moveCarouselImageRight() {
-
+  function moveCarouselImageRight() {
+    if (configurationOne) {
+      setLeftImageSrc();
+      setFeatureImageSrc();
+      setRightImageSrc();
+    } else if (configurationTwo) {
+      setLeftImageSrc();
+      setFeatureImageSrc();
+      setRightImageSrc();
+    } else if (configurationThree) {
+      setLeftImageSrc();
+      setFeatureImageSrc();
+      setRightImageSrc();
     }
+  }
 
-  //images loop around in a carousel. 1, 2, 3 then 2, 3, 1 then 3, 1, 2
-  //clicking left & right arrows will navigate through the carousel. 
-  //whichever image is featured in the center will be clickable with a link to the video 
   //the dots under the carousel will also loop around when the arrows are clicked
   //the yellow dot will stay with the yellow cover image, same with red and blue
-  //clicking the dots will cause the matching image to display in the center
+  //clicking the dots will also cause the matching image to display in the center
+
+
 
     return (
       <>
@@ -40,13 +64,13 @@ export default function HeroPanel() {
             <img id='hiddenImage' src={figmaPrototypes} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
             <div id='carouselImagesContainer'>
               <a href='https://www.tiktok.com/@millsdesign.co' target='_blank' rel='noopener noreferrer'>
-                <img className='carouselImage leftImage' src={figmaPrototypes} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
+                <img className='carouselImage leftImage' src={leftImageSrc} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
               </a>
               <a href='https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=en' target='_blank' rel='noopener noreferrer'>
-                <img className='carouselImage featuredImage' src={failingFast} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
+                <img className='carouselImage featuredImage' src={featureImageSrc} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
               </a>
               <a href='https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en' target='_blank' rel='noopener noreferrer'>
-                <img className='carouselImage rightImage' src={photoshopCropTool} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
+                <img className='carouselImage rightImage' src={rightImageSrc} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
               </a>
             </div>
             <div id='carouselArrowRight' onClick={() => moveCarouselImageRight()}></div>
