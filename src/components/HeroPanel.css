@@ -1,27 +1,70 @@
-#carouselContainer {
+#carouselInnerContainer {
     display: flex;
-    justify-content: center;
-    margin-top: 24px;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
 }
 
-.carouselFocus {
-    
+#carouselImagesContainer {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+
 }
 
-.carouselSides {
-    transform: scale(.75);
+#carouselArrowLeft {
+    border: solid var(--strawberryDessert);
+    ;
+    border-width: 0 4px 4px 0;
+    border-radius: 2px;
+    padding: 6px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+#carouselArrowRight {
+    border: solid var(--strawberryDessert);
+    ;
+    border-width: 0 4px 4px 0;
+    border-radius: 2px;
+    padding: 6px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#hiddenImage {
+    width: 50vw;
+    visibility: hidden;
 }
 
 .carouselImage {
-    max-width: 50vw;
+    width: 50vw;
     border-radius: 4px;
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.leftImage {
+    transform: translate(-35%, -50%) scale(.75);
+    z-index: 1;
+}
+
+.rightImage {
+    transform: translate(35%, -50%) scale(.75);
+    z-index: 1;
+}
+
+.featuredImage {
+    z-index: 2;
 }
 
 #dotsContainer {
     display: flex;
     gap: 6px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .dots {
@@ -46,7 +89,7 @@
     #heroContainer {
         display: flex;
         flex-direction: row;
-        padding: 2.5vw 5vw; 
+        padding: 2.5vw 5vw;
         justify-content: space-between;
     }
 
@@ -54,7 +97,7 @@
         max-width: 40%;
     }
 
-    #intro > p {
+    #intro>p {
         margin-left: 0;
     }
 }
