@@ -91,13 +91,36 @@
         flex-direction: row;
         padding: 2.5vw 5vw;
         justify-content: space-between;
+        align-items: center;
     }
 
     #intro {
-        max-width: 40%;
+        width: 35%;
     }
 
     #intro>p {
         margin-left: 0;
     }
+
+    #carouselOuterContainer {
+        width: 45vw;
+    }
+
+    #hiddenImage {
+        width: 20vw;
+    }
+
+    .carouselImage {
+        width: 20vw;
+    }
+
+    .leftImage {
+        transform: translate(-60%, -50%) scale(.75);
+      
+    }
+    
+    .rightImage {
+        transform: translate(60%, -50%) scale(.75);
+    }
+
 }
