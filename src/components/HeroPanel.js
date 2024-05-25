@@ -15,17 +15,22 @@ export default function HeroPanel() {
           Hey there, I’m Emily Mills. 👋 I create short-form videos that help designers conquer imposter syndrome and create with confidence.
           </p>
         </div>
-        {/* <div id='carouselContainer'>
+        <div id='carouselContainer'>
             <a href='https://www.tiktok.com/@millsdesign.co' target='_blank' rel='noopener noreferrer'>
-              <img className='carouselImage' src={figmaPrototypes} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
+              <img className='carouselImage carouselSides' src={figmaPrototypes} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
             </a>
             <a href='https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=en' target='_blank' rel='noopener noreferrer'>
-              <img className='carouselImage' src={failingFast} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
+              <img className='carouselImage carouselFocus' src={failingFast} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
             </a>
             <a href='https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en' target='_blank' rel='noopener noreferrer'>
-              <img className='carouselImage' src={photoshopCropTool} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
+              <img className='carouselImage carouselSides' src={photoshopCropTool} alt='A cover design for a TikTok tutorial relating to graphic design.'/>
             </a>
-        </div> */}
+        </div>
+        <div id='dotsContainer'>
+          <div className='dots blueDot'></div>
+          <div className='dots yellowDot'></div>
+          <div className='dots redDot'></div>
+        </div>
       </div>
       </>
     );
