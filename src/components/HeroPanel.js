@@ -18,17 +18,17 @@ export default function HeroPanel() {
 
 
   function moveCarouselImageLeft() {
-    if (configuration == 1) {
+    if (configuration === 1) {
       setLeftImageSrc(photoshopCropTool);
       setFeatureImageSrc(figmaPrototypes);
       setRightImageSrc(failingFast);
       setConfiguration(3);
-    } else if (configuration == 2) {
+    } else if (configuration === 2) {
       setLeftImageSrc(figmaPrototypes);
       setFeatureImageSrc(failingFast);
       setRightImageSrc(photoshopCropTool);
       setConfiguration(1);
-    } else if (configuration == 3) {
+    } else if (configuration === 3) {
       setLeftImageSrc(failingFast);
       setFeatureImageSrc(photoshopCropTool);
       setRightImageSrc(figmaPrototypes);
@@ -37,17 +37,17 @@ export default function HeroPanel() {
   };
 
   function moveCarouselImageRight() {
-    if (configuration == 1) {
+    if (configuration === 1) {
       setLeftImageSrc(failingFast);
       setFeatureImageSrc(photoshopCropTool);
       setRightImageSrc(figmaPrototypes);
       setConfiguration(2);
-    } else if (configuration == 2) {
+    } else if (configuration === 2) {
       setLeftImageSrc(photoshopCropTool);
       setFeatureImageSrc(figmaPrototypes);
       setRightImageSrc(failingFast);
       setConfiguration(3);
-    } else if (configuration == 3) {
+    } else if (configuration === 3) {
       setLeftImageSrc(figmaPrototypes);
       setFeatureImageSrc(failingFast);
       setRightImageSrc(photoshopCropTool);
