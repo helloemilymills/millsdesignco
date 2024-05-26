@@ -68,20 +68,9 @@
 }
 
 .dots {
-    height: 10px;
-    width: 10px;
+    height: 8px;
+    width: 8px;
     border-radius: 50%;
-}
-
-.blueDot {
-    background-color: var(--hotAirBalloon);
-}
-
-.yellowDot {
-    background-color: var(--rubberDucky);
-}
-
-.redDot {
     background-color: var(--strawberryDessert);
 }
 
@@ -123,4 +112,8 @@
         transform: translate(60%, -50%) scale(.75);
     }
 
+    .dots {
+        height: 10px;
+        width: 10px;
+    }
 }

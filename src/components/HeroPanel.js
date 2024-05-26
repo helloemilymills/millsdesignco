@@ -11,27 +11,28 @@ export default function HeroPanel() {
   const [featureImageSrc, setFeatureImageSrc] = useState(failingFast);
   const [rightImageSrc, setRightImageSrc] = useState(photoshopCropTool);
 
-//clicking the arrows or dots changes the img src:
+//clicking the arrows changes the img src:
 // config 1 = prototypes, failing fast, crop tool
 // config 2 = failing fast, crop tool, prototypes
 // config 3 = crop tool, prototypes, failing fast
+
 
   function moveCarouselImageLeft() {
     if (configuration == 1) {
       setLeftImageSrc(photoshopCropTool);
       setFeatureImageSrc(figmaPrototypes);
       setRightImageSrc(failingFast);
-      setConfiguration(3)
+      setConfiguration(3);
     } else if (configuration == 2) {
       setLeftImageSrc(figmaPrototypes);
       setFeatureImageSrc(failingFast);
       setRightImageSrc(photoshopCropTool);
-      setConfiguration(1)
+      setConfiguration(1);
     } else if (configuration == 3) {
       setLeftImageSrc(failingFast);
       setFeatureImageSrc(photoshopCropTool);
       setRightImageSrc(figmaPrototypes);
-      setConfiguration(2)
+      setConfiguration(2);
     }
   };
 
@@ -40,17 +41,17 @@ export default function HeroPanel() {
       setLeftImageSrc(failingFast);
       setFeatureImageSrc(photoshopCropTool);
       setRightImageSrc(figmaPrototypes);
-      setConfiguration(2)
+      setConfiguration(2);
     } else if (configuration == 2) {
       setLeftImageSrc(photoshopCropTool);
       setFeatureImageSrc(figmaPrototypes);
       setRightImageSrc(failingFast);
-      setConfiguration(3)
+      setConfiguration(3);
     } else if (configuration == 3) {
       setLeftImageSrc(figmaPrototypes);
       setFeatureImageSrc(failingFast);
       setRightImageSrc(photoshopCropTool);
-      setConfiguration(1)
+      setConfiguration(1);
     }
   }
 
@@ -82,9 +83,9 @@ export default function HeroPanel() {
             <div id='carouselArrowRight' onClick={() => moveCarouselImageRight()}></div>
           </div>
           <div id='dotsContainer'>
-            <div className='dots blueDot'></div>
-            <div className='dots yellowDot'></div>
-            <div className='dots redDot'></div>
+            <div className='dots dot1'></div>
+            <div className='dots dot2'></div>
+            <div className='dots dot3'></div>
           </div>
         </div>
       </div>
