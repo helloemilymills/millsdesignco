@@ -6,47 +6,53 @@ import figmaPrototypes from '../images/Cover - Figma Prototypes.png'
 
 export default function HeroPanel() {
 
+  const [configuration, setConfiguration] = useState(1);
   const [leftImageSrc, setLeftImageSrc] = useState(figmaPrototypes);
   const [featureImageSrc, setFeatureImageSrc] = useState(failingFast);
   const [rightImageSrc, setRightImageSrc] = useState(photoshopCropTool);
 
+//clicking the arrows or dots changes the img src:
+// config 1 = prototypes, failing fast, crop tool
+// config 2 = failing fast, crop tool, prototypes
+// config 3 = crop tool, prototypes, failing fast
+
   function moveCarouselImageLeft() {
-    if (configurationOne) {
-      setLeftImageSrc();
-      setFeatureImageSrc();
-      setRightImageSrc();
-    } else if (configurationTwo) {
-      setLeftImageSrc();
-      setFeatureImageSrc();
-      setRightImageSrc();
-    } else if (configurationThree) {
-      setLeftImageSrc();
-      setFeatureImageSrc();
-      setRightImageSrc();
+    if (configuration == 1) {
+      setLeftImageSrc(photoshopCropTool);
+      setFeatureImageSrc(figmaPrototypes);
+      setRightImageSrc(failingFast);
+      setConfiguration(3)
+    } else if (configuration == 2) {
+      setLeftImageSrc(figmaPrototypes);
+      setFeatureImageSrc(failingFast);
+      setRightImageSrc(photoshopCropTool);
+      setConfiguration(1)
+    } else if (configuration == 3) {
+      setLeftImageSrc(failingFast);
+      setFeatureImageSrc(photoshopCropTool);
+      setRightImageSrc(figmaPrototypes);
+      setConfiguration(2)
     }
   };
 
   function moveCarouselImageRight() {
-    if (configurationOne) {
-      setLeftImageSrc();
-      setFeatureImageSrc();
-      setRightImageSrc();
-    } else if (configurationTwo) {
-      setLeftImageSrc();
-      setFeatureImageSrc();
-      setRightImageSrc();
-    } else if (configurationThree) {
-      setLeftImageSrc();
-      setFeatureImageSrc();
-      setRightImageSrc();
+    if (configuration == 1) {
+      setLeftImageSrc(failingFast);
+      setFeatureImageSrc(photoshopCropTool);
+      setRightImageSrc(figmaPrototypes);
+      setConfiguration(2)
+    } else if (configuration == 2) {
+      setLeftImageSrc(photoshopCropTool);
+      setFeatureImageSrc(figmaPrototypes);
+      setRightImageSrc(failingFast);
+      setConfiguration(3)
+    } else if (configuration == 3) {
+      setLeftImageSrc(figmaPrototypes);
+      setFeatureImageSrc(failingFast);
+      setRightImageSrc(photoshopCropTool);
+      setConfiguration(1)
     }
   }
-
-  //the dots under the carousel will also loop around when the arrows are clicked
-  //the yellow dot will stay with the yellow cover image, same with red and blue
-  //clicking the dots will also cause the matching image to display in the center
-
-
 
     return (
       <>
