@@ -1,5 +1,5 @@
 import './BrandStoryPanel.css'
-import profilePicture from '../images/Profile Square (Mills Design Co).png'
+import profilePicture from '../images/Profile Square (Mills Design Co).webp'
 
 export default function BrandStoryPanel() {
 

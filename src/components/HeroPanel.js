@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './HeroPanel.css'
-import photoshopCropTool from '../images/Cover - Photoshop Crop Tool.png'
-import failingFast from '../images/Cover - Failing Fast.png'
-import figmaPrototypes from '../images/Cover - Figma Prototypes.png'
+import photoshopCropTool from '../images/Cover - Photoshop Crop Tool.webp'
+import failingFast from '../images/Cover - Failing Fast.webp'
+import figmaPrototypes from '../images/Cover - Figma Prototypes.webp'
 
 export default function HeroPanel() {
 
