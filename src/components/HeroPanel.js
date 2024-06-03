@@ -26,13 +26,13 @@ export default function HeroPanel() {
       setLeftImageSrc(photoshopCropTool);
       setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
       setFeatureImageSrc(figmaPrototypes);
-      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co');
+      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
       setRightImageSrc(failingFast);
       setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
       setConfiguration(3);
     } else if (configuration === 2) {
       setLeftImageSrc(figmaPrototypes);
-      setLeftImageLink('https://www.tiktok.com/@millsdesign.co');
+      setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
       setFeatureImageSrc(failingFast);
       setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
       setRightImageSrc(photoshopCropTool);
@@ -44,7 +44,7 @@ export default function HeroPanel() {
       setFeatureImageSrc(photoshopCropTool);
       setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
       setRightImageSrc(figmaPrototypes);
-      setRightImageLink('https://www.tiktok.com/@millsdesign.co');
+      setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
       setConfiguration(2);
     }
   };
@@ -56,19 +56,19 @@ export default function HeroPanel() {
       setFeatureImageSrc(photoshopCropTool);
       setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
       setRightImageSrc(figmaPrototypes);
-      setRightImageLink('https://www.tiktok.com/@millsdesign.co');
+      setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
       setConfiguration(2);
     } else if (configuration === 2) {
       setLeftImageSrc(photoshopCropTool);
       setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
       setFeatureImageSrc(figmaPrototypes);
-      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co');
+      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
       setRightImageSrc(failingFast);
       setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
       setConfiguration(3);
     } else if (configuration === 3) {
       setLeftImageSrc(figmaPrototypes);
-      setLeftImageLink('https://www.tiktok.com/@millsdesign.co');
+      setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
       setFeatureImageSrc(failingFast);
       setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
       setRightImageSrc(photoshopCropTool);
