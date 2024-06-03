@@ -11,7 +11,7 @@ export default function HeroPanel() {
   const [featureImageSrc, setFeatureImageSrc] = useState(failingFast);
   const [rightImageSrc, setRightImageSrc] = useState(photoshopCropTool);
 
-  const [leftImageLink, setLeftImageLink] = useState('https://www.tiktok.com/@millsdesign.co');
+  const [leftImageLink, setLeftImageLink] = useState('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
   const [featureImageLink, setFeatureImageLink] = useState('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=en');
   const [rightImageLink, setRightImageLink] = useState('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
 
