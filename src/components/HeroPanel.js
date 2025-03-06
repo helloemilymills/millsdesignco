@@ -11,9 +11,9 @@ export default function HeroPanel() {
   const [featureImageSrc, setFeatureImageSrc] = useState(failingFast);
   const [rightImageSrc, setRightImageSrc] = useState(photoshopCropTool);
 
-  const [leftImageLink, setLeftImageLink] = useState('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
-  const [featureImageLink, setFeatureImageLink] = useState('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=en');
-  const [rightImageLink, setRightImageLink] = useState('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
+  const [leftImageLink, setLeftImageLink] = useState('https://www.instagram.com/reel/C7wWY0_yA3Z');
+  const [featureImageLink, setFeatureImageLink] = useState('https://www.instagram.com/p/C7LITJoSYPY/');
+  const [rightImageLink, setRightImageLink] = useState('https://www.instagram.com/p/C6gau0ep78F/');
 
 //clicking the arrows changes the img src:
 // config 1 = prototypes, failing fast, crop tool
@@ -24,27 +24,27 @@ export default function HeroPanel() {
   function moveCarouselImageLeft() {
     if (configuration === 1) {
       setLeftImageSrc(photoshopCropTool);
-      setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
+      setLeftImageLink('https://www.instagram.com/p/C6gau0ep78F/');
       setFeatureImageSrc(figmaPrototypes);
-      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
+      setFeatureImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
       setRightImageSrc(failingFast);
-      setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
+      setRightImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
       setConfiguration(3);
     } else if (configuration === 2) {
       setLeftImageSrc(figmaPrototypes);
-      setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
+      setLeftImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
       setFeatureImageSrc(failingFast);
-      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
+      setFeatureImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
       setRightImageSrc(photoshopCropTool);
-      setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
+      setRightImageLink('https://www.instagram.com/p/C6gau0ep78F/');
       setConfiguration(1);
     } else if (configuration === 3) {
       setLeftImageSrc(failingFast);
-      setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
+      setLeftImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
       setFeatureImageSrc(photoshopCropTool);
-      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
+      setFeatureImageLink('https://www.instagram.com/p/C6gau0ep78F/');
       setRightImageSrc(figmaPrototypes);
-      setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
+      setRightImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
       setConfiguration(2);
     }
   };
@@ -52,27 +52,27 @@ export default function HeroPanel() {
   function moveCarouselImageRight() {
     if (configuration === 1) {
       setLeftImageSrc(failingFast);
-      setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
+      setLeftImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
       setFeatureImageSrc(photoshopCropTool);
-      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
+      setFeatureImageLink('https://www.instagram.com/p/C6gau0ep78F/');
       setRightImageSrc(figmaPrototypes);
-      setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
+      setRightImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
       setConfiguration(2);
     } else if (configuration === 2) {
       setLeftImageSrc(photoshopCropTool);
-      setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
+      setLeftImageLink('https://www.instagram.com/p/C6gau0ep78F/');
       setFeatureImageSrc(figmaPrototypes);
-      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
+      setFeatureImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
       setRightImageSrc(failingFast);
-      setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
+      setRightImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
       setConfiguration(3);
     } else if (configuration === 3) {
       setLeftImageSrc(figmaPrototypes);
-      setLeftImageLink('https://www.tiktok.com/@millsdesign.co/video/7376264734187719943');
+      setLeftImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
       setFeatureImageSrc(failingFast);
-      setFeatureImageLink('https://www.tiktok.com/@millsdesign.co/video/7370897206695595282?lang=e');
+      setFeatureImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
       setRightImageSrc(photoshopCropTool);
-      setRightImageLink('https://www.tiktok.com/@millsdesign.co/video/7364749904431959314?lang=en');
+      setRightImageLink('https://www.instagram.com/p/C6gau0ep78F/');
       setConfiguration(1);
     }
   }
