@@ -7,7 +7,7 @@ export default function Nav() {
       <>
         <div id='navContainer'>
           <img id='navLogo' src={logo} alt='Mills Design Co Logo'/>
-          <p className='headerFooterCompanyName white'>Mills Design Co</p>
+          {/* <p className='headerFooterCompanyName white'>Mills Design Co</p> */}
           <div id='burgerMenu'></div>
         </div>
       </>

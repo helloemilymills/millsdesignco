@@ -6,7 +6,7 @@ export default function Footer() {
     return (
       <>
         <div id='footer'>
-          <p className='headerFooterCompanyName white'> © Mills Design Co</p>
+          <p className='headerFooterCompanyName white'> © Emily Mills, 2025</p>
           <img id='footerLogo' src={submark} alt='Mills Design Co Logo'/>
         </div>
       </>
