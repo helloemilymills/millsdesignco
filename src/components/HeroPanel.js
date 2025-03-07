@@ -11,9 +11,9 @@ export default function HeroPanel() {
   const [featureImageSrc, setFeatureImageSrc] = useState(failingFast);
   const [rightImageSrc, setRightImageSrc] = useState(photoshopCropTool);
 
-  const [leftImageLink, setLeftImageLink] = useState('https://www.instagram.com/reel/C7wWY0_yA3Z');
-  const [featureImageLink, setFeatureImageLink] = useState('https://www.instagram.com/p/C7LITJoSYPY/');
-  const [rightImageLink, setRightImageLink] = useState('https://www.instagram.com/p/C6gau0ep78F/');
+  const [leftImageLink, setLeftImageLink] = useState('https://www.youtube.com/shorts/F7tI0ktM4Rk');
+  const [featureImageLink, setFeatureImageLink] = useState('https://www.youtube.com/shorts/hUDkZKsNRfE');
+  const [rightImageLink, setRightImageLink] = useState('https://www.youtube.com/shorts/t9h08vJGZaE');
 
 //clicking the arrows changes the img src:
 // config 1 = prototypes, failing fast, crop tool
@@ -24,27 +24,27 @@ export default function HeroPanel() {
   function moveCarouselImageLeft() {
     if (configuration === 1) {
       setLeftImageSrc(photoshopCropTool);
-      setLeftImageLink('https://www.instagram.com/p/C6gau0ep78F/');
+      setLeftImageLink('https://www.youtube.com/shorts/t9h08vJGZaE');
       setFeatureImageSrc(figmaPrototypes);
-      setFeatureImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
+      setFeatureImageLink('https://www.youtube.com/shorts/F7tI0ktM4Rk');
       setRightImageSrc(failingFast);
-      setRightImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
+      setRightImageLink('https://www.youtube.com/shorts/hUDkZKsNRfE');
       setConfiguration(3);
     } else if (configuration === 2) {
       setLeftImageSrc(figmaPrototypes);
-      setLeftImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
+      setLeftImageLink('https://www.youtube.com/shorts/F7tI0ktM4Rk');
       setFeatureImageSrc(failingFast);
-      setFeatureImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
+      setFeatureImageLink('https://www.youtube.com/shorts/hUDkZKsNRfE');
       setRightImageSrc(photoshopCropTool);
-      setRightImageLink('https://www.instagram.com/p/C6gau0ep78F/');
+      setRightImageLink('https://www.youtube.com/shorts/t9h08vJGZaE');
       setConfiguration(1);
     } else if (configuration === 3) {
       setLeftImageSrc(failingFast);
-      setLeftImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
+      setLeftImageLink('https://www.youtube.com/shorts/hUDkZKsNRfE');
       setFeatureImageSrc(photoshopCropTool);
-      setFeatureImageLink('https://www.instagram.com/p/C6gau0ep78F/');
+      setFeatureImageLink('https://www.youtube.com/shorts/t9h08vJGZaE');
       setRightImageSrc(figmaPrototypes);
-      setRightImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
+      setRightImageLink('https://www.youtube.com/shorts/F7tI0ktM4Rk');
       setConfiguration(2);
     }
   };
@@ -52,27 +52,27 @@ export default function HeroPanel() {
   function moveCarouselImageRight() {
     if (configuration === 1) {
       setLeftImageSrc(failingFast);
-      setLeftImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
+      setLeftImageLink('https://www.youtube.com/shorts/hUDkZKsNRfE');
       setFeatureImageSrc(photoshopCropTool);
-      setFeatureImageLink('https://www.instagram.com/p/C6gau0ep78F/');
+      setFeatureImageLink('https://www.youtube.com/shorts/t9h08vJGZaE');
       setRightImageSrc(figmaPrototypes);
-      setRightImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
+      setRightImageLink('https://www.youtube.com/shorts/F7tI0ktM4Rk');
       setConfiguration(2);
     } else if (configuration === 2) {
       setLeftImageSrc(photoshopCropTool);
-      setLeftImageLink('https://www.instagram.com/p/C6gau0ep78F/');
+      setLeftImageLink('https://www.youtube.com/shorts/t9h08vJGZaE');
       setFeatureImageSrc(figmaPrototypes);
-      setFeatureImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
+      setFeatureImageLink('https://www.youtube.com/shorts/F7tI0ktM4Rk');
       setRightImageSrc(failingFast);
-      setRightImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
+      setRightImageLink('https://www.youtube.com/shorts/hUDkZKsNRfE');
       setConfiguration(3);
     } else if (configuration === 3) {
       setLeftImageSrc(figmaPrototypes);
-      setLeftImageLink('https://www.instagram.com/reel/C7wWY0_yA3Z');
+      setLeftImageLink('https://www.youtube.com/shorts/F7tI0ktM4Rk');
       setFeatureImageSrc(failingFast);
-      setFeatureImageLink('https://www.instagram.com/p/C7LITJoSYPY/');
+      setFeatureImageLink('https://www.youtube.com/shorts/hUDkZKsNRfE');
       setRightImageSrc(photoshopCropTool);
-      setRightImageLink('https://www.instagram.com/p/C6gau0ep78F/');
+      setRightImageLink('https://www.youtube.com/shorts/t9h08vJGZaE');
       setConfiguration(1);
     }
   }
